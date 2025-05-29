@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkorchid;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.topnav a {
+    float: left;
+    color: forestgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: blue;
+    color: blueviolet;
+}
+
+.topnav a.active {
+    background-color: pink;
+    color: aqua;
+}
